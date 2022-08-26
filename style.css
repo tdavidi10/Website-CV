@@ -1,0 +1,14 @@
+.centers{
+    /*center the sentence */
+    text-align: center;
+}
+body{
+    font-family: 'calibri';
+}
+.georgia{
+    font-family: 'georgia';
+    font-weight: bold;
+}
+h1{
+    font-size: 28pt;
+}
