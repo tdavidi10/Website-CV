@@ -5,7 +5,7 @@
 
 
 
-
+// hello user
 let username;
 document.getElementById("myButton").onclick = function () {
     username = document.getElementById("myText").value;
@@ -13,6 +13,7 @@ document.getElementById("myButton").onclick = function () {
     console.log(username);
 }
 
+// Yeter in yeshar zavit
 let a
 let b
 let c  
@@ -24,6 +25,20 @@ document.getElementById("submit").onclick = function () {
     console.log(c);
 }
 
+// Counter
+let count = 0;
+document.getElementById("inc").onclick = function () {
+    count++;
+    document.getElementById("counter").innerHTML = count;
+}
+document.getElementById("dec").onclick = function () {
+    count--;
+    document.getElementById("counter").innerHTML = count;
+}
+document.getElementById("reset").onclick = function () {
+    count = 0;
+    document.getElementById("counter").innerHTML = count;
+}
 
 
 
